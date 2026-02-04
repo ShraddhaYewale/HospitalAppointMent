@@ -6,8 +6,6 @@
   flex-wrap:wrap;
   justify-content: center;
 }
-
-/* Utility Colors */
 .bg-primary-teal {
   background-color: var(--primary) !important;
 }
@@ -73,3 +71,4 @@
   border-color: var(--primary);
   box-shadow: 0 0 0 0.25rem rgba(0,196,180,0.25);
 }
+
