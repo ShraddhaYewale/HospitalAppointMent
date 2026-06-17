@@ -1,0 +1,75 @@
+:root {
+  --primary: #00c4b4;
+  --primary-dark: #00a89a;
+  --dark: #1a3c34;
+  --light: #f8f9fa;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+/* Utility Colors */
+.bg-primary-teal {
+  background-color: var(--primary) !important;
+}
+
+.text-primary-teal {
+  color: var(--primary) !important;
+}
+
+.btn-primary-teal {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary-teal:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+              url('img/GreenTeaHome.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+}
+
+/* Specialities */
+.spec-icon {
+  font-size: 2.8rem;
+  color: var(--primary);
+}
+
+/* Doctor Cards */
+.card-doctor {
+  border: none;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card-doctor:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,196,180,0.2);
+}
+
+/* Appointment Section */
+.appointment-card {
+  border-radius: 15px;
+}
+/* Articles */
+.article-card img {
+  height: 180px;
+  object-fit: cover;
+
+}
+/* Contact Section */
+.contact-card {
+  border-radius: 15px;
+}
+/* Forms */
+.form-control:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 0.25rem rgba(0,196,180,0.25);
+}
